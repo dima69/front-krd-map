@@ -1,0 +1,40 @@
+@import '~leaflet/dist/leaflet.css';
+@import '~antd/dist/antd.css';
+
+body, #root, .leaflet-container {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.vehicle-trolley-icon {
+  background-color: #198cff;
+  /* color: white; */
+  border-radius: 3px;
+  /* border: 2px solid #373cd1; */
+}
+
+.vehicle-bus-icon {
+  background-color: #3cb300;
+  /* color: white; */
+  border-radius: 3px;
+  /* border: 2px solid #373cd1; */
+}
+
+.vehicle-tram-icon {
+  background-color: #ff4433;
+  /* color: white; */
+  border-radius: 3px;
+  /* border: 2px solid #373cd1; */
+}
+
+.vehicle-unknown-icon {
+  background-color: #a3a3a3;
+  /* color: white; */
+  border-radius: 3px;
+  /* border: 2px solid #373cd1; */
+}
